@@ -6,8 +6,15 @@ import streamlit as st
 
 st.set_page_config(page_title='Naruto | Monte Carlo Lab', page_icon='📈', layout='wide')
 st.markdown('''<style>
-.stApp {background-color:#faf8f3;color:#171717}
-[data-testid="stMetric"] {background:#fff;border:1px solid #ded8cc;padding:14px;border-radius:10px}
+[data-testid="stMetric"] {
+  color: #171717 !important;
+}
+[data-testid="stMetricLabel"] {
+  color: #555047 !important;
+}
+[data-testid="stMetricValue"] {
+  color: #171717 !important;
+}
 .stButton button {background:#171717;color:white;border-radius:8px;border:0}
 </style>''', unsafe_allow_html=True)
 st.title('NARUTO | MONTE CARLO LAB')
